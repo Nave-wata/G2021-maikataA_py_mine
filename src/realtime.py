@@ -26,31 +26,29 @@ class MainWindow(QtWidgets.QMainWindow):
         # 増幅量関連の定義
         self.cnt_mag = (1, 2, 6, 12, 23, 46, 93, 186, 325, 464, 512)
         self.cnt_bwmag = (1, 4, 6, 11, 23, 47, 93, 139, 139)
-        self.ls_reset = []
-        self.sum_vol = []
-        self.sum_vol_save = []
         self.sum_vol_add = [1.0, 1.0, 1.0]
         self.resum_vol_add = [0.0, 0.0, 0.0]
 
         # 各増幅量間のcount1あたりの増加量
+        self.sum_vol = np.array([])
         for i in range(9):
             self.sum_vol = np.append(self.sum_vol, np.array([1 / self.cnt_bwmag[i]]), axis=0)
 
         # 各周波数ごとの増幅率
         for i in range(1, 9):  # 基準の周波数含む
+            self.sum_vol_save = np.array([])
             for j in range(1, self.cnt_bwmag[i]+1):
                 self.sum_vol_save = np.append(self.sum_vol_save, np.array([self.sum_vol[i] * j]), axis=0)
             self.sum_vol_add = np.append(self.sum_vol_add, np.array(self.sum_vol_save), axis=0)
-            self.sum_vol_save = copy.copy(self.ls_reset)
 
         for i in range(47):  # vol[9]のために残りすべてを１にする(~512)
             self.sum_vol_add = np.append(self.sum_vol_add, 1)
 
         for i in range(1, 9):  # 基準の周波数含む
+            self.sum_vol_sav = np.array([])
             for j in range(self.cnt_bwmag[i]-1, -1, -1):
                 self.sum_vol_save = np.append(self.sum_vol_save, np.array([self.sum_vol[i] * j]), axis=0)
             self.resum_vol_add = np.append(self.resum_vol_add, np.array(self.sum_vol_save), axis=0)
-            self.sum_vol_save = copy.copy(self.ls_reset)
 
         for i in range(len(self.resum_vol_add)):  # 基準の周波数を0.0にする
             if(self.resum_vol_add[i] == 1.0):
@@ -250,8 +248,8 @@ class MainWindow(QtWidgets.QMainWindow):
         else:
             self.ai_flag = False
 
-    def slot4(self, state):
-        if (QtCore.Qt.Checked == state):
+    def slot4(self):
+        if self.ai_flag == False:
             max = np.max([self.calib / self.left, self.calib / self.right])
             self.l_mag = self.calib / self.left / max
             self.r_mag = self.calib / self.right / max

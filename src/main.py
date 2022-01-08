@@ -18,7 +18,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def __init__(self, parent=None):
         # valuables
-        self.starttime = 0
+        self.starttime = 0.0
         self.flag = 0
         self.count = 0
 

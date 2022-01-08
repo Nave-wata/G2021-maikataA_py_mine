@@ -52,5 +52,12 @@
         "venv",
         "winx"
     ],
-    "python.linting.mypyEnabled": true
+        "python.linting.mypyEnabled": true,
+        "python.linting.enabled": true,
+        "python.linting.mypyArgs": [
+            "--ignore-missing-imports",
+            "--follow-imports=silent",
+            "--show-column-numbers",
+            "--check-untyped-defs" // 追加
+        ]
 }
