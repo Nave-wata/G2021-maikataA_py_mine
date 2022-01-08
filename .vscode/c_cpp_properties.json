@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Users/pr0gr/AppData/Local/Programs/Python/Python36/Include"
             ],
             "defines": [
                 "_DEBUG",
