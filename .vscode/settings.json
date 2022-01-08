@@ -28,6 +28,7 @@
         "mfccs",
         "myput",
         "ndarray",
+        "nptyping",
         "numpy",
         "plaidml",
         "plotwid",
@@ -58,6 +59,7 @@
             "--ignore-missing-imports",
             "--follow-imports=silent",
             "--show-column-numbers",
+            "data-science-types",
             "--check-untyped-defs" // 追加
         ]
 }

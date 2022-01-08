@@ -1,36 +1,37 @@
-import pyaudio
+import pyaudio # type: ignore
 import numpy as np
 import struct
 import copy
 import os
 import sys
+from typing import List, Tuple, Dict
 from PyQt5 import QtWidgets, QtCore
-from sub.realtime_form import Ui_MainWindow
-from sub.realtime_AI import Noise_detection_AI
+from sub.realtime_form import Ui_MainWindow # type: ignore
+from sub.realtime_AI import Noise_detection_AI # type: ignore
 
 
 class MainWindow(QtWidgets.QMainWindow):
-    base_path = os.path.dirname(__file__)
+    base_path: str = os.path.dirname(__file__)
 
-    OUTPUT_INDEX = 5
-    INPUT_INDEX = 1
-    CALIBRATE_PATH = os.path.join(base_path, "../calibrate/earphone.npy")  # Calibrate earphone data
-    LEFT_PATH = os.path.join(base_path, "../earphone/L.npy")  # left poor earphone
-    RIGHT_PATH = os.path.join(base_path, "../earphone/R.npy")  # right poor earphone
-    OUTPUT_FIX = 1  # change here according to sound level
+    OUTPUT_INDEX: int = 5
+    INPUT_INDEX: int = 1
+    CALIBRATE_PATH: str = os.path.join(base_path, "../calibrate/earphone.npy")  # Calibrate earphone data
+    LEFT_PATH: str = os.path.join(base_path, "../earphone/L.npy")  # left poor earphone
+    RIGHT_PATH: str = os.path.join(base_path, "../earphone/R.npy")  # right poor earphone
+    OUTPUT_FIX: int = 1  # change here according to sound level
 
-    RATE = 44100  # サンプリング周波数
-    OVERFLOW_LIMIT = 20480  # Inputのバッファーの閾値
+    RATE: int = 44100  # サンプリング周波数
+    OVERFLOW_LIMIT: int = 20480  # Inputのバッファーの閾値
 
     def __init__(self, parent=None):
         # 増幅量関連の定義
-        self.cnt_mag = (1, 2, 6, 12, 23, 46, 93, 186, 325, 464, 512)
-        self.cnt_bwmag = (1, 4, 6, 11, 23, 47, 93, 139, 139)
-        self.sum_vol_add = [1.0, 1.0, 1.0]
-        self.resum_vol_add = [0.0, 0.0, 0.0]
+        self.cnt_mag: tuple[int] = (1, 2, 6, 12, 23, 46, 93, 186, 325, 464, 512)
+        self.cnt_bwmag: tuple[int] = (1, 4, 6, 11, 23, 47, 93, 139, 139)
+        self.sum_vol_add: np.ndarray[float] = np.array([1.0, 1.0, 1.0])
+        self.resum_vol_add: np.ndarray[float] = np.array([0.0, 0.0, 0.0])
 
         # 各増幅量間のcount1あたりの増加量
-        self.sum_vol = np.array([])
+        self.sum_vol: np.ndarray[int] = np.array([])
         for i in range(9):
             self.sum_vol = np.append(self.sum_vol, np.array([1 / self.cnt_bwmag[i]]), axis=0)
 
@@ -91,8 +92,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.right = np.load(self.RIGHT_PATH)  # 百均イヤホン左
 
         self.FLAG = False  # ON/OFFのフラグ
-        self.ai_flag = False
-        self.hyaku_flag = False
+        self.ai_flag: bool = False
+        self.hyaku_flag: bool = False
         self.in_frames = 0
         self.out_frames = 0
 
@@ -242,14 +243,14 @@ class MainWindow(QtWidgets.QMainWindow):
         self.l_mag = np.append(np.append(self.l_mag, [0]), self.l_mag[:0:-1])
         self.r_mag = np.append(np.append(self.r_mag, [0]), self.r_mag[:0:-1])
 
-    def slot3(self, state):
+    def slot3(self, state) -> None:
         if (QtCore.Qt.Checked == state):
             self.ai_flag = True
         else:
             self.ai_flag = False
 
-    def slot4(self):
-        if self.ai_flag == False:
+    def slot4(self, state) -> None:
+        if (QtCore.Qt.Checked == state):
             max = np.max([self.calib / self.left, self.calib / self.right])
             self.l_mag = self.calib / self.left / max
             self.r_mag = self.calib / self.right / max
