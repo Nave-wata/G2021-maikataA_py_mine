@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "From",
+        "name": "Form",
         "sources": [
-            "C:\\Users\\pr0gr\\RD_club\\projects\\G2021-maikataA_py_mine\\src\\cython\\sub\\From.pyx"
+            "C:\\Users\\pr0gr\\RD_club\\projects\\G2021-maikataA_py_mine\\src\\cython\\Form.pyx"
         ]
     },
-    "module_name": "From"
+    "module_name": "Form"
 }
 END: Cython Metadata */
 
@@ -624,8 +624,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__From
-#define __PYX_HAVE_API__From
+#define __PYX_HAVE__Form
+#define __PYX_HAVE_API__Form
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -835,7 +835,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "From.pyx",
+  "Form.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -1222,12 +1222,12 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'From' */
-#define __Pyx_MODULE_NAME "From"
-extern int __pyx_module_is_main_From;
-int __pyx_module_is_main_From = 0;
+/* Module declarations from 'Form' */
+#define __Pyx_MODULE_NAME "Form"
+extern int __pyx_module_is_main_Form;
+int __pyx_module_is_main_Form = 0;
 
-/* Implementation of 'From' */
+/* Implementation of 'Form' */
 static PyObject *__pyx_builtin_object;
 static const char __pyx_k_L[] = "\345\267\246\350\200\263L";
 static const char __pyx_k_N[] = "N";
@@ -1246,7 +1246,7 @@ static const char __pyx_k__29[] = "\351\237\263\345\234\247";
 static const char __pyx_k__33[] = "\346\263\242\345\275\242";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_pen[] = "pen";
-static const char __pyx_k_From[] = "From";
+static const char __pyx_k_Form[] = "Form";
 static const char __pyx_k_RATE[] = "RATE";
 static const char __pyx_k_font[] = "font";
 static const char __pyx_k_main[] = "__main__";
@@ -1290,7 +1290,7 @@ static const char __pyx_k_setBold[] = "setBold";
 static const char __pyx_k_setFont[] = "setFont";
 static const char __pyx_k_setText[] = "setText";
 static const char __pyx_k_setupUi[] = "setupUi";
-static const char __pyx_k_From_pyx[] = "From.pyx";
+static const char __pyx_k_Form_pyx[] = "Form.pyx";
 static const char __pyx_k_QMenuBar[] = "QMenuBar";
 static const char __pyx_k_plotwid1[] = "plotwid1";
 static const char __pyx_k_plotwid2[] = "plotwid2";
@@ -1353,8 +1353,8 @@ static const char __pyx_k_Ui_MainWindow_setupUi[] = "Ui_MainWindow.setupUi";
 static const char __pyx_k_setAutoFillBackground[] = "setAutoFillBackground";
 static const char __pyx_k_Ui_MainWindow_retranslateUi[] = "Ui_MainWindow.retranslateUi";
 static PyObject *__pyx_n_s_FFT;
-static PyObject *__pyx_n_s_From;
-static PyObject *__pyx_kp_s_From_pyx;
+static PyObject *__pyx_n_s_Form;
+static PyObject *__pyx_kp_s_Form_pyx;
 static PyObject *__pyx_kp_s_Hz;
 static PyObject *__pyx_kp_s_L;
 static PyObject *__pyx_n_s_MainWindow;
@@ -1475,8 +1475,8 @@ static PyObject *__pyx_n_s_value;
 static PyObject *__pyx_n_s_wave;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
-static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow); /* proto */
-static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow); /* proto */
+static PyObject *__pyx_pf_4Form_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow); /* proto */
+static PyObject *__pyx_pf_4Form_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow); /* proto */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
@@ -1557,7 +1557,7 @@ static PyObject *__pyx_codeobj__39;
 static PyObject *__pyx_codeobj__41;
 /* Late includes */
 
-/* "From.pyx":8
+/* "Form.pyx":8
  * class Ui_MainWindow(object):
  * 
  *     def setupUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -1566,9 +1566,9 @@ static PyObject *__pyx_codeobj__41;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_4From_13Ui_MainWindow_1setupUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_4From_13Ui_MainWindow_1setupUi = {"setupUi", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_4From_13Ui_MainWindow_1setupUi, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_4From_13Ui_MainWindow_1setupUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4Form_13Ui_MainWindow_1setupUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4Form_13Ui_MainWindow_1setupUi = {"setupUi", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_4Form_13Ui_MainWindow_1setupUi, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4Form_13Ui_MainWindow_1setupUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_MainWindow = 0;
   int __pyx_lineno = 0;
@@ -1619,18 +1619,18 @@ static PyObject *__pyx_pw_4From_13Ui_MainWindow_1setupUi(PyObject *__pyx_self, P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("setupUi", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 8, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("From.Ui_MainWindow.setupUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Form.Ui_MainWindow.setupUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_4From_13Ui_MainWindow_setupUi(__pyx_self, __pyx_v_self, __pyx_v_MainWindow);
+  __pyx_r = __pyx_pf_4Form_13Ui_MainWindow_setupUi(__pyx_self, __pyx_v_self, __pyx_v_MainWindow);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow) {
+static PyObject *__pyx_pf_4Form_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow) {
   PyObject *__pyx_v_font = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -1644,7 +1644,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("setupUi", 0);
 
-  /* "From.pyx":9
+  /* "Form.pyx":9
  * 
  *     def setupUi(self, MainWindow):
  *         MainWindow.setObjectName("MainWindow")             # <<<<<<<<<<<<<<
@@ -1670,7 +1670,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":10
+  /* "Form.pyx":10
  *     def setupUi(self, MainWindow):
  *         MainWindow.setObjectName("MainWindow")
  *         MainWindow.resize(1146, 673)             # <<<<<<<<<<<<<<
@@ -1684,7 +1684,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":11
+  /* "Form.pyx":11
  *         MainWindow.setObjectName("MainWindow")
  *         MainWindow.resize(1146, 673)
  *         MainWindow.setAutoFillBackground(False)             # <<<<<<<<<<<<<<
@@ -1710,7 +1710,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":12
+  /* "Form.pyx":12
  *         MainWindow.resize(1146, 673)
  *         MainWindow.setAutoFillBackground(False)
  *         self.centralwidget = QtWidgets.QWidget(MainWindow)             # <<<<<<<<<<<<<<
@@ -1740,7 +1740,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_centralwidget, __pyx_t_2) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":13
+  /* "Form.pyx":13
  *         MainWindow.setAutoFillBackground(False)
  *         self.centralwidget = QtWidgets.QWidget(MainWindow)
  *         self.centralwidget.setObjectName("centralwidget")             # <<<<<<<<<<<<<<
@@ -1769,7 +1769,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":14
+  /* "Form.pyx":14
  *         self.centralwidget = QtWidgets.QWidget(MainWindow)
  *         self.centralwidget.setObjectName("centralwidget")
  *         self.pushButton = QtWidgets.QPushButton(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -1802,7 +1802,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_pushButton, __pyx_t_2) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":15
+  /* "Form.pyx":15
  *         self.centralwidget.setObjectName("centralwidget")
  *         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton.setGeometry(QtCore.QRect(20, 50, 171, 51))             # <<<<<<<<<<<<<<
@@ -1840,7 +1840,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":16
+  /* "Form.pyx":16
  *         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton.setGeometry(QtCore.QRect(20, 50, 171, 51))
  *         self.pushButton.setObjectName("pushButton")             # <<<<<<<<<<<<<<
@@ -1869,7 +1869,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":17
+  /* "Form.pyx":17
  *         self.pushButton.setGeometry(QtCore.QRect(20, 50, 171, 51))
  *         self.pushButton.setObjectName("pushButton")
  *         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -1902,7 +1902,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_pushButton_2, __pyx_t_2) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":18
+  /* "Form.pyx":18
  *         self.pushButton.setObjectName("pushButton")
  *         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_2.setGeometry(QtCore.QRect(20, 110, 171, 51))             # <<<<<<<<<<<<<<
@@ -1940,7 +1940,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":19
+  /* "Form.pyx":19
  *         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_2.setGeometry(QtCore.QRect(20, 110, 171, 51))
  *         self.pushButton_2.setObjectName("pushButton_2")             # <<<<<<<<<<<<<<
@@ -1969,7 +1969,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":20
+  /* "Form.pyx":20
  *         self.pushButton_2.setGeometry(QtCore.QRect(20, 110, 171, 51))
  *         self.pushButton_2.setObjectName("pushButton_2")
  *         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -2002,7 +2002,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_pushButton_3, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":21
+  /* "Form.pyx":21
  *         self.pushButton_2.setObjectName("pushButton_2")
  *         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_3.setGeometry(QtCore.QRect(20, 170, 171, 51))             # <<<<<<<<<<<<<<
@@ -2040,7 +2040,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":22
+  /* "Form.pyx":22
  *         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_3.setGeometry(QtCore.QRect(20, 170, 171, 51))
  *         self.pushButton_3.setObjectName("pushButton_3")             # <<<<<<<<<<<<<<
@@ -2069,7 +2069,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":23
+  /* "Form.pyx":23
  *         self.pushButton_3.setGeometry(QtCore.QRect(20, 170, 171, 51))
  *         self.pushButton_3.setObjectName("pushButton_3")
  *         self.lcdNumber = QtWidgets.QLCDNumber(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -2102,7 +2102,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lcdNumber, __pyx_t_2) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":24
+  /* "Form.pyx":24
  *         self.pushButton_3.setObjectName("pushButton_3")
  *         self.lcdNumber = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber.setGeometry(QtCore.QRect(20, 390, 161, 81))             # <<<<<<<<<<<<<<
@@ -2140,7 +2140,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":25
+  /* "Form.pyx":25
  *         self.lcdNumber = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber.setGeometry(QtCore.QRect(20, 390, 161, 81))
  *         self.lcdNumber.setFrameShape(QtWidgets.QFrame.StyledPanel)             # <<<<<<<<<<<<<<
@@ -2178,7 +2178,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":26
+  /* "Form.pyx":26
  *         self.lcdNumber.setGeometry(QtCore.QRect(20, 390, 161, 81))
  *         self.lcdNumber.setFrameShape(QtWidgets.QFrame.StyledPanel)
  *         self.lcdNumber.setFrameShadow(QtWidgets.QFrame.Raised)             # <<<<<<<<<<<<<<
@@ -2216,7 +2216,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":27
+  /* "Form.pyx":27
  *         self.lcdNumber.setFrameShape(QtWidgets.QFrame.StyledPanel)
  *         self.lcdNumber.setFrameShadow(QtWidgets.QFrame.Raised)
  *         self.lcdNumber.setLineWidth(4)             # <<<<<<<<<<<<<<
@@ -2245,7 +2245,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":28
+  /* "Form.pyx":28
  *         self.lcdNumber.setFrameShadow(QtWidgets.QFrame.Raised)
  *         self.lcdNumber.setLineWidth(4)
  *         self.lcdNumber.setSmallDecimalPoint(False)             # <<<<<<<<<<<<<<
@@ -2274,7 +2274,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":29
+  /* "Form.pyx":29
  *         self.lcdNumber.setLineWidth(4)
  *         self.lcdNumber.setSmallDecimalPoint(False)
  *         self.lcdNumber.setObjectName("lcdNumber")             # <<<<<<<<<<<<<<
@@ -2303,7 +2303,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":30
+  /* "Form.pyx":30
  *         self.lcdNumber.setSmallDecimalPoint(False)
  *         self.lcdNumber.setObjectName("lcdNumber")
  *         self.lcdNumber_2 = QtWidgets.QLCDNumber(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -2336,7 +2336,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_lcdNumber_2, __pyx_t_2) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":31
+  /* "Form.pyx":31
  *         self.lcdNumber.setObjectName("lcdNumber")
  *         self.lcdNumber_2 = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber_2.setGeometry(QtCore.QRect(20, 530, 161, 81))             # <<<<<<<<<<<<<<
@@ -2374,7 +2374,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":32
+  /* "Form.pyx":32
  *         self.lcdNumber_2 = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber_2.setGeometry(QtCore.QRect(20, 530, 161, 81))
  *         self.lcdNumber_2.setFrameShape(QtWidgets.QFrame.StyledPanel)             # <<<<<<<<<<<<<<
@@ -2412,7 +2412,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":33
+  /* "Form.pyx":33
  *         self.lcdNumber_2.setGeometry(QtCore.QRect(20, 530, 161, 81))
  *         self.lcdNumber_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
  *         self.lcdNumber_2.setFrameShadow(QtWidgets.QFrame.Raised)             # <<<<<<<<<<<<<<
@@ -2450,7 +2450,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":34
+  /* "Form.pyx":34
  *         self.lcdNumber_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
  *         self.lcdNumber_2.setFrameShadow(QtWidgets.QFrame.Raised)
  *         self.lcdNumber_2.setLineWidth(4)             # <<<<<<<<<<<<<<
@@ -2479,7 +2479,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":35
+  /* "Form.pyx":35
  *         self.lcdNumber_2.setFrameShadow(QtWidgets.QFrame.Raised)
  *         self.lcdNumber_2.setLineWidth(4)
  *         self.lcdNumber_2.setSmallDecimalPoint(False)             # <<<<<<<<<<<<<<
@@ -2508,7 +2508,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":36
+  /* "Form.pyx":36
  *         self.lcdNumber_2.setLineWidth(4)
  *         self.lcdNumber_2.setSmallDecimalPoint(False)
  *         self.lcdNumber_2.setObjectName("lcdNumber_2")             # <<<<<<<<<<<<<<
@@ -2537,7 +2537,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":37
+  /* "Form.pyx":37
  *         self.lcdNumber_2.setSmallDecimalPoint(False)
  *         self.lcdNumber_2.setObjectName("lcdNumber_2")
  *         self.label = QtWidgets.QLabel(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -2570,7 +2570,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_label, __pyx_t_2) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":38
+  /* "Form.pyx":38
  *         self.lcdNumber_2.setObjectName("lcdNumber_2")
  *         self.label = QtWidgets.QLabel(self.centralwidget)
  *         self.label.setGeometry(QtCore.QRect(20, 505, 91, 21))             # <<<<<<<<<<<<<<
@@ -2608,7 +2608,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":39
+  /* "Form.pyx":39
  *         self.label = QtWidgets.QLabel(self.centralwidget)
  *         self.label.setGeometry(QtCore.QRect(20, 505, 91, 21))
  *         font = QtGui.QFont()             # <<<<<<<<<<<<<<
@@ -2638,7 +2638,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __pyx_v_font = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "From.pyx":40
+  /* "Form.pyx":40
  *         self.label.setGeometry(QtCore.QRect(20, 505, 91, 21))
  *         font = QtGui.QFont()
  *         font.setPointSize(20)             # <<<<<<<<<<<<<<
@@ -2664,7 +2664,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":41
+  /* "Form.pyx":41
  *         font = QtGui.QFont()
  *         font.setPointSize(20)
  *         font.setBold(True)             # <<<<<<<<<<<<<<
@@ -2690,7 +2690,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":42
+  /* "Form.pyx":42
  *         font.setPointSize(20)
  *         font.setBold(True)
  *         font.setItalic(False)             # <<<<<<<<<<<<<<
@@ -2716,7 +2716,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":43
+  /* "Form.pyx":43
  *         font.setBold(True)
  *         font.setItalic(False)
  *         font.setWeight(75)             # <<<<<<<<<<<<<<
@@ -2742,7 +2742,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":44
+  /* "Form.pyx":44
  *         font.setItalic(False)
  *         font.setWeight(75)
  *         self.label.setFont(font)             # <<<<<<<<<<<<<<
@@ -2771,7 +2771,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":45
+  /* "Form.pyx":45
  *         font.setWeight(75)
  *         self.label.setFont(font)
  *         self.label.setObjectName("label")             # <<<<<<<<<<<<<<
@@ -2800,7 +2800,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":46
+  /* "Form.pyx":46
  *         self.label.setFont(font)
  *         self.label.setObjectName("label")
  *         self.label_2 = QtWidgets.QLabel(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -2833,7 +2833,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_label_2, __pyx_t_2) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":47
+  /* "Form.pyx":47
  *         self.label.setObjectName("label")
  *         self.label_2 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_2.setGeometry(QtCore.QRect(20, 360, 121, 21))             # <<<<<<<<<<<<<<
@@ -2871,7 +2871,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":48
+  /* "Form.pyx":48
  *         self.label_2 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_2.setGeometry(QtCore.QRect(20, 360, 121, 21))
  *         font = QtGui.QFont()             # <<<<<<<<<<<<<<
@@ -2901,7 +2901,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF_SET(__pyx_v_font, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "From.pyx":49
+  /* "Form.pyx":49
  *         self.label_2.setGeometry(QtCore.QRect(20, 360, 121, 21))
  *         font = QtGui.QFont()
  *         font.setPointSize(20)             # <<<<<<<<<<<<<<
@@ -2927,7 +2927,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":50
+  /* "Form.pyx":50
  *         font = QtGui.QFont()
  *         font.setPointSize(20)
  *         font.setBold(True)             # <<<<<<<<<<<<<<
@@ -2953,7 +2953,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":51
+  /* "Form.pyx":51
  *         font.setPointSize(20)
  *         font.setBold(True)
  *         font.setItalic(False)             # <<<<<<<<<<<<<<
@@ -2979,7 +2979,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":52
+  /* "Form.pyx":52
  *         font.setBold(True)
  *         font.setItalic(False)
  *         font.setWeight(75)             # <<<<<<<<<<<<<<
@@ -3005,7 +3005,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":53
+  /* "Form.pyx":53
  *         font.setItalic(False)
  *         font.setWeight(75)
  *         self.label_2.setFont(font)             # <<<<<<<<<<<<<<
@@ -3034,7 +3034,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":54
+  /* "Form.pyx":54
  *         font.setWeight(75)
  *         self.label_2.setFont(font)
  *         self.label_2.setObjectName("label_2")             # <<<<<<<<<<<<<<
@@ -3063,7 +3063,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":55
+  /* "Form.pyx":55
  *         self.label_2.setFont(font)
  *         self.label_2.setObjectName("label_2")
  *         self.label_3 = QtWidgets.QLabel(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3096,7 +3096,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_label_3, __pyx_t_2) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":56
+  /* "Form.pyx":56
  *         self.label_2.setObjectName("label_2")
  *         self.label_3 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_3.setGeometry(QtCore.QRect(220, 230, 71, 31))             # <<<<<<<<<<<<<<
@@ -3134,7 +3134,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":57
+  /* "Form.pyx":57
  *         self.label_3 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_3.setGeometry(QtCore.QRect(220, 230, 71, 31))
  *         self.label_3.setObjectName("label_3")             # <<<<<<<<<<<<<<
@@ -3163,7 +3163,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":58
+  /* "Form.pyx":58
  *         self.label_3.setGeometry(QtCore.QRect(220, 230, 71, 31))
  *         self.label_3.setObjectName("label_3")
  *         self.label_4 = QtWidgets.QLabel(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3196,7 +3196,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_label_4, __pyx_t_2) < 0) __PYX_ERR(0, 58, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":59
+  /* "Form.pyx":59
  *         self.label_3.setObjectName("label_3")
  *         self.label_4 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_4.setGeometry(QtCore.QRect(220, 20, 60, 16))             # <<<<<<<<<<<<<<
@@ -3234,7 +3234,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":60
+  /* "Form.pyx":60
  *         self.label_4 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_4.setGeometry(QtCore.QRect(220, 20, 60, 16))
  *         self.label_4.setObjectName("label_4")             # <<<<<<<<<<<<<<
@@ -3263,7 +3263,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":61
+  /* "Form.pyx":61
  *         self.label_4.setGeometry(QtCore.QRect(220, 20, 60, 16))
  *         self.label_4.setObjectName("label_4")
  *         self.wave = PlotWidget(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3293,7 +3293,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wave, __pyx_t_2) < 0) __PYX_ERR(0, 61, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":62
+  /* "Form.pyx":62
  *         self.label_4.setObjectName("label_4")
  *         self.wave = PlotWidget(self.centralwidget)
  *         self.wave.setGeometry(QtCore.QRect(220, 40, 901, 191))             # <<<<<<<<<<<<<<
@@ -3331,7 +3331,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":63
+  /* "Form.pyx":63
  *         self.wave = PlotWidget(self.centralwidget)
  *         self.wave.setGeometry(QtCore.QRect(220, 40, 901, 191))
  *         self.wave.setObjectName("wave")             # <<<<<<<<<<<<<<
@@ -3360,7 +3360,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":64
+  /* "Form.pyx":64
  *         self.wave.setGeometry(QtCore.QRect(220, 40, 901, 191))
  *         self.wave.setObjectName("wave")
  *         self.spectrum = PlotWidget(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3390,7 +3390,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_spectrum, __pyx_t_2) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":65
+  /* "Form.pyx":65
  *         self.wave.setObjectName("wave")
  *         self.spectrum = PlotWidget(self.centralwidget)
  *         self.spectrum.setGeometry(QtCore.QRect(220, 260, 901, 351))             # <<<<<<<<<<<<<<
@@ -3428,7 +3428,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":66
+  /* "Form.pyx":66
  *         self.spectrum = PlotWidget(self.centralwidget)
  *         self.spectrum.setGeometry(QtCore.QRect(220, 260, 901, 351))
  *         self.spectrum.setObjectName("spectrum")             # <<<<<<<<<<<<<<
@@ -3457,7 +3457,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":67
+  /* "Form.pyx":67
  *         self.spectrum.setGeometry(QtCore.QRect(220, 260, 901, 351))
  *         self.spectrum.setObjectName("spectrum")
  *         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3490,7 +3490,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_progressBar, __pyx_t_2) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":68
+  /* "Form.pyx":68
  *         self.spectrum.setObjectName("spectrum")
  *         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
  *         self.progressBar.setGeometry(QtCore.QRect(20, 330, 161, 23))             # <<<<<<<<<<<<<<
@@ -3528,7 +3528,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":69
+  /* "Form.pyx":69
  *         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
  *         self.progressBar.setGeometry(QtCore.QRect(20, 330, 161, 23))
  *         self.progressBar.setProperty("value", 0)             # <<<<<<<<<<<<<<
@@ -3545,7 +3545,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":70
+  /* "Form.pyx":70
  *         self.progressBar.setGeometry(QtCore.QRect(20, 330, 161, 23))
  *         self.progressBar.setProperty("value", 0)
  *         self.progressBar.setObjectName("progressBar")             # <<<<<<<<<<<<<<
@@ -3574,7 +3574,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":71
+  /* "Form.pyx":71
  *         self.progressBar.setProperty("value", 0)
  *         self.progressBar.setObjectName("progressBar")
  *         self.label_5 = QtWidgets.QLabel(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3607,7 +3607,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_label_5, __pyx_t_2) < 0) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":72
+  /* "Form.pyx":72
  *         self.progressBar.setObjectName("progressBar")
  *         self.label_5 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_5.setGeometry(QtCore.QRect(20, 305, 161, 21))             # <<<<<<<<<<<<<<
@@ -3645,7 +3645,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":73
+  /* "Form.pyx":73
  *         self.label_5 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_5.setGeometry(QtCore.QRect(20, 305, 161, 21))
  *         font = QtGui.QFont()             # <<<<<<<<<<<<<<
@@ -3675,7 +3675,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF_SET(__pyx_v_font, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "From.pyx":74
+  /* "Form.pyx":74
  *         self.label_5.setGeometry(QtCore.QRect(20, 305, 161, 21))
  *         font = QtGui.QFont()
  *         font.setPointSize(20)             # <<<<<<<<<<<<<<
@@ -3701,7 +3701,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":75
+  /* "Form.pyx":75
  *         font = QtGui.QFont()
  *         font.setPointSize(20)
  *         self.label_5.setFont(font)             # <<<<<<<<<<<<<<
@@ -3730,7 +3730,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":76
+  /* "Form.pyx":76
  *         font.setPointSize(20)
  *         self.label_5.setFont(font)
  *         self.label_5.setText("")             # <<<<<<<<<<<<<<
@@ -3759,7 +3759,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":77
+  /* "Form.pyx":77
  *         self.label_5.setFont(font)
  *         self.label_5.setText("")
  *         self.label_5.setObjectName("label_5")             # <<<<<<<<<<<<<<
@@ -3788,7 +3788,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":78
+  /* "Form.pyx":78
  *         self.label_5.setText("")
  *         self.label_5.setObjectName("label_5")
  *         self.radioButton = QtWidgets.QRadioButton(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3821,7 +3821,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_radioButton, __pyx_t_2) < 0) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":79
+  /* "Form.pyx":79
  *         self.label_5.setObjectName("label_5")
  *         self.radioButton = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton.setGeometry(QtCore.QRect(30, 240, 100, 20))             # <<<<<<<<<<<<<<
@@ -3859,7 +3859,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":80
+  /* "Form.pyx":80
  *         self.radioButton = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton.setGeometry(QtCore.QRect(30, 240, 100, 20))
  *         self.radioButton.setChecked(True)             # <<<<<<<<<<<<<<
@@ -3888,7 +3888,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":81
+  /* "Form.pyx":81
  *         self.radioButton.setGeometry(QtCore.QRect(30, 240, 100, 20))
  *         self.radioButton.setChecked(True)
  *         self.radioButton.setObjectName("radioButton")             # <<<<<<<<<<<<<<
@@ -3917,7 +3917,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":82
+  /* "Form.pyx":82
  *         self.radioButton.setChecked(True)
  *         self.radioButton.setObjectName("radioButton")
  *         self.radioButton_2 = QtWidgets.QRadioButton(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -3950,7 +3950,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_radioButton_2, __pyx_t_2) < 0) __PYX_ERR(0, 82, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":83
+  /* "Form.pyx":83
  *         self.radioButton.setObjectName("radioButton")
  *         self.radioButton_2 = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton_2.setGeometry(QtCore.QRect(110, 240, 100, 20))             # <<<<<<<<<<<<<<
@@ -3988,7 +3988,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":84
+  /* "Form.pyx":84
  *         self.radioButton_2 = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton_2.setGeometry(QtCore.QRect(110, 240, 100, 20))
  *         self.radioButton_2.setObjectName("radioButton_2")             # <<<<<<<<<<<<<<
@@ -4017,7 +4017,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":86
+  /* "Form.pyx":86
  *         self.radioButton_2.setObjectName("radioButton_2")
  * 
  *         MainWindow.setCentralWidget(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -4046,7 +4046,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":87
+  /* "Form.pyx":87
  * 
  *         MainWindow.setCentralWidget(self.centralwidget)
  *         self.menubar = QtWidgets.QMenuBar(MainWindow)             # <<<<<<<<<<<<<<
@@ -4076,7 +4076,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_menubar, __pyx_t_2) < 0) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":88
+  /* "Form.pyx":88
  *         MainWindow.setCentralWidget(self.centralwidget)
  *         self.menubar = QtWidgets.QMenuBar(MainWindow)
  *         self.menubar.setGeometry(QtCore.QRect(0, 0, 1146, 22))             # <<<<<<<<<<<<<<
@@ -4114,7 +4114,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":89
+  /* "Form.pyx":89
  *         self.menubar = QtWidgets.QMenuBar(MainWindow)
  *         self.menubar.setGeometry(QtCore.QRect(0, 0, 1146, 22))
  *         self.menubar.setObjectName("menubar")             # <<<<<<<<<<<<<<
@@ -4143,7 +4143,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":90
+  /* "Form.pyx":90
  *         self.menubar.setGeometry(QtCore.QRect(0, 0, 1146, 22))
  *         self.menubar.setObjectName("menubar")
  *         MainWindow.setMenuBar(self.menubar)             # <<<<<<<<<<<<<<
@@ -4172,7 +4172,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":91
+  /* "Form.pyx":91
  *         self.menubar.setObjectName("menubar")
  *         MainWindow.setMenuBar(self.menubar)
  *         self.statusbar = QtWidgets.QStatusBar(MainWindow)             # <<<<<<<<<<<<<<
@@ -4202,7 +4202,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_statusbar, __pyx_t_2) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":92
+  /* "Form.pyx":92
  *         MainWindow.setMenuBar(self.menubar)
  *         self.statusbar = QtWidgets.QStatusBar(MainWindow)
  *         self.statusbar.setObjectName("statusbar")             # <<<<<<<<<<<<<<
@@ -4231,7 +4231,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":93
+  /* "Form.pyx":93
  *         self.statusbar = QtWidgets.QStatusBar(MainWindow)
  *         self.statusbar.setObjectName("statusbar")
  *         MainWindow.setStatusBar(self.statusbar)             # <<<<<<<<<<<<<<
@@ -4260,7 +4260,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":95
+  /* "Form.pyx":95
  *         MainWindow.setStatusBar(self.statusbar)
  * 
  *         self.retranslateUi(MainWindow)             # <<<<<<<<<<<<<<
@@ -4286,7 +4286,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":96
+  /* "Form.pyx":96
  * 
  *         self.retranslateUi(MainWindow)
  *         self.pushButton.clicked.connect(MainWindow.slot1)             # <<<<<<<<<<<<<<
@@ -4321,7 +4321,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":97
+  /* "Form.pyx":97
  *         self.retranslateUi(MainWindow)
  *         self.pushButton.clicked.connect(MainWindow.slot1)
  *         self.pushButton_2.clicked.connect(MainWindow.slot2)             # <<<<<<<<<<<<<<
@@ -4356,7 +4356,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":98
+  /* "Form.pyx":98
  *         self.pushButton.clicked.connect(MainWindow.slot1)
  *         self.pushButton_2.clicked.connect(MainWindow.slot2)
  *         self.pushButton_3.clicked.connect(MainWindow.slot3)             # <<<<<<<<<<<<<<
@@ -4391,7 +4391,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":99
+  /* "Form.pyx":99
  *         self.pushButton_2.clicked.connect(MainWindow.slot2)
  *         self.pushButton_3.clicked.connect(MainWindow.slot3)
  *         self.radioButton.clicked.connect(MainWindow.slot4)             # <<<<<<<<<<<<<<
@@ -4426,7 +4426,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":100
+  /* "Form.pyx":100
  *         self.pushButton_3.clicked.connect(MainWindow.slot3)
  *         self.radioButton.clicked.connect(MainWindow.slot4)
  *         self.radioButton_2.clicked.connect(MainWindow.slot5)             # <<<<<<<<<<<<<<
@@ -4461,7 +4461,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":101
+  /* "Form.pyx":101
  *         self.radioButton.clicked.connect(MainWindow.slot4)
  *         self.radioButton_2.clicked.connect(MainWindow.slot5)
  *         QtCore.QMetaObject.connectSlotsByName(MainWindow)             # <<<<<<<<<<<<<<
@@ -4493,7 +4493,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":104
+  /* "Form.pyx":104
  * 
  *         #
  *         self.plotwid1 = PlotWidget(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -4523,7 +4523,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plotwid1, __pyx_t_2) < 0) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":105
+  /* "Form.pyx":105
  *         #
  *         self.plotwid1 = PlotWidget(self.centralwidget)
  *         self.plotwid1.setGeometry(QtCore.QRect(220, 40, 901, 191))             # <<<<<<<<<<<<<<
@@ -4561,7 +4561,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":106
+  /* "Form.pyx":106
  *         self.plotwid1 = PlotWidget(self.centralwidget)
  *         self.plotwid1.setGeometry(QtCore.QRect(220, 40, 901, 191))
  *         self.plotwid1.setObjectName("wave")             # <<<<<<<<<<<<<<
@@ -4590,7 +4590,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":107
+  /* "Form.pyx":107
  *         self.plotwid1.setGeometry(QtCore.QRect(220, 40, 901, 191))
  *         self.plotwid1.setObjectName("wave")
  *         self.plotitem1 = self.plotwid1.getPlotItem()             # <<<<<<<<<<<<<<
@@ -4620,7 +4620,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plotitem1, __pyx_t_2) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":108
+  /* "Form.pyx":108
  *         self.plotwid1.setObjectName("wave")
  *         self.plotitem1 = self.plotwid1.getPlotItem()
  *         self.plotitem1.setMouseEnabled(x=False, y=False)             # <<<<<<<<<<<<<<
@@ -4642,7 +4642,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":109
+  /* "Form.pyx":109
  *         self.plotitem1 = self.plotwid1.getPlotItem()
  *         self.plotitem1.setMouseEnabled(x=False, y=False)
  *         self.plotitem1.setYRange(-1, 1)             # <<<<<<<<<<<<<<
@@ -4659,7 +4659,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":110
+  /* "Form.pyx":110
  *         self.plotitem1.setMouseEnabled(x=False, y=False)
  *         self.plotitem1.setYRange(-1, 1)
  *         self.plotitem1.setXRange(0, MainWindow.N, padding=0)             # <<<<<<<<<<<<<<
@@ -4691,7 +4691,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "From.pyx":113
+  /* "Form.pyx":113
  * 
  *         #
  *         self.plotwid2 = PlotWidget(self.centralwidget)             # <<<<<<<<<<<<<<
@@ -4721,7 +4721,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plotwid2, __pyx_t_4) < 0) __PYX_ERR(0, 113, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "From.pyx":114
+  /* "Form.pyx":114
  *         #
  *         self.plotwid2 = PlotWidget(self.centralwidget)
  *         self.plotwid2.setGeometry(QtCore.QRect(220, 260, 901, 351))             # <<<<<<<<<<<<<<
@@ -4759,7 +4759,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "From.pyx":115
+  /* "Form.pyx":115
  *         self.plotwid2 = PlotWidget(self.centralwidget)
  *         self.plotwid2.setGeometry(QtCore.QRect(220, 260, 901, 351))
  *         self.plotwid2.setObjectName("spectrum")             # <<<<<<<<<<<<<<
@@ -4788,7 +4788,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "From.pyx":116
+  /* "Form.pyx":116
  *         self.plotwid2.setGeometry(QtCore.QRect(220, 260, 901, 351))
  *         self.plotwid2.setObjectName("spectrum")
  *         self.plotitem2 = self.plotwid2.getPlotItem()             # <<<<<<<<<<<<<<
@@ -4818,7 +4818,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_plotitem2, __pyx_t_4) < 0) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "From.pyx":117
+  /* "Form.pyx":117
  *         self.plotwid2.setObjectName("spectrum")
  *         self.plotitem2 = self.plotwid2.getPlotItem()
  *         self.plotitem2.setMouseEnabled(x=False, y=True)             # <<<<<<<<<<<<<<
@@ -4840,7 +4840,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":118
+  /* "Form.pyx":118
  *         self.plotitem2 = self.plotwid2.getPlotItem()
  *         self.plotitem2.setMouseEnabled(x=False, y=True)
  *         self.plotitem2.setYRange(35, 250)             # <<<<<<<<<<<<<<
@@ -4857,7 +4857,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":119
+  /* "Form.pyx":119
  *         self.plotitem2.setMouseEnabled(x=False, y=True)
  *         self.plotitem2.setYRange(35, 250)
  *         self.plotitem2.setXRange(20, MainWindow.RATE / 2, padding=0)             # <<<<<<<<<<<<<<
@@ -4892,7 +4892,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":122
+  /* "Form.pyx":122
  * 
  *         # Plot data
  *         self.curve_wave = self.plotitem1.plot()             # <<<<<<<<<<<<<<
@@ -4922,7 +4922,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_curve_wave, __pyx_t_2) < 0) __PYX_ERR(0, 122, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":123
+  /* "Form.pyx":123
  *         # Plot data
  *         self.curve_wave = self.plotitem1.plot()
  *         self.curve_spectrum = self.plotitem2.plot()             # <<<<<<<<<<<<<<
@@ -4952,7 +4952,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_curve_spectrum, __pyx_t_2) < 0) __PYX_ERR(0, 123, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":124
+  /* "Form.pyx":124
  *         self.curve_wave = self.plotitem1.plot()
  *         self.curve_spectrum = self.plotitem2.plot()
  *         self.max_spectrum = self.plotitem2.plot(pen=pg.mkPen(color="r"))             # <<<<<<<<<<<<<<
@@ -4987,7 +4987,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_max_spectrum, __pyx_t_5) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "From.pyx":8
+  /* "Form.pyx":8
  * class Ui_MainWindow(object):
  * 
  *     def setupUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -5004,7 +5004,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("From.Ui_MainWindow.setupUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Form.Ui_MainWindow.setupUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_font);
@@ -5013,7 +5013,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
   return __pyx_r;
 }
 
-/* "From.pyx":126
+/* "Form.pyx":126
  *         self.max_spectrum = self.plotitem2.plot(pen=pg.mkPen(color="r"))
  * 
  *     def retranslateUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -5022,9 +5022,9 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_setupUi(CYTHON_UNUSED PyObject *
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_4From_13Ui_MainWindow_3retranslateUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_4From_13Ui_MainWindow_3retranslateUi = {"retranslateUi", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_4From_13Ui_MainWindow_3retranslateUi, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_4From_13Ui_MainWindow_3retranslateUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_4Form_13Ui_MainWindow_3retranslateUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_4Form_13Ui_MainWindow_3retranslateUi = {"retranslateUi", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_4Form_13Ui_MainWindow_3retranslateUi, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_4Form_13Ui_MainWindow_3retranslateUi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_MainWindow = 0;
   int __pyx_lineno = 0;
@@ -5075,18 +5075,18 @@ static PyObject *__pyx_pw_4From_13Ui_MainWindow_3retranslateUi(PyObject *__pyx_s
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("retranslateUi", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 126, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("From.Ui_MainWindow.retranslateUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Form.Ui_MainWindow.retranslateUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_4From_13Ui_MainWindow_2retranslateUi(__pyx_self, __pyx_v_self, __pyx_v_MainWindow);
+  __pyx_r = __pyx_pf_4Form_13Ui_MainWindow_2retranslateUi(__pyx_self, __pyx_v_self, __pyx_v_MainWindow);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow) {
+static PyObject *__pyx_pf_4Form_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_MainWindow) {
   PyObject *__pyx_v__translate = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -5099,7 +5099,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("retranslateUi", 0);
 
-  /* "From.pyx":127
+  /* "Form.pyx":127
  * 
  *     def retranslateUi(self, MainWindow):
  *         _translate = QtCore.QCoreApplication.translate             # <<<<<<<<<<<<<<
@@ -5117,7 +5117,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __pyx_v__translate = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "From.pyx":128
+  /* "Form.pyx":128
  *     def retranslateUi(self, MainWindow):
  *         _translate = QtCore.QCoreApplication.translate
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))             # <<<<<<<<<<<<<<
@@ -5146,7 +5146,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":129
+  /* "Form.pyx":129
  *         _translate = QtCore.QCoreApplication.translate
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
  *         self.pushButton.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5178,7 +5178,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":130
+  /* "Form.pyx":130
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
  *         self.pushButton.setText(_translate("MainWindow", ""))
  *         self.pushButton_2.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5210,7 +5210,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":131
+  /* "Form.pyx":131
  *         self.pushButton.setText(_translate("MainWindow", ""))
  *         self.pushButton_2.setText(_translate("MainWindow", ""))
  *         self.pushButton_3.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5242,7 +5242,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":132
+  /* "Form.pyx":132
  *         self.pushButton_2.setText(_translate("MainWindow", ""))
  *         self.pushButton_3.setText(_translate("MainWindow", ""))
  *         self.label.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5274,7 +5274,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":133
+  /* "Form.pyx":133
  *         self.pushButton_3.setText(_translate("MainWindow", ""))
  *         self.label.setText(_translate("MainWindow", ""))
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))             # <<<<<<<<<<<<<<
@@ -5306,7 +5306,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":134
+  /* "Form.pyx":134
  *         self.label.setText(_translate("MainWindow", ""))
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))
  *         self.label_3.setText(_translate("MainWindow", "FFT"))             # <<<<<<<<<<<<<<
@@ -5338,7 +5338,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":135
+  /* "Form.pyx":135
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))
  *         self.label_3.setText(_translate("MainWindow", "FFT"))
  *         self.label_4.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5370,7 +5370,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":136
+  /* "Form.pyx":136
  *         self.label_3.setText(_translate("MainWindow", "FFT"))
  *         self.label_4.setText(_translate("MainWindow", ""))
  *         self.radioButton.setText(_translate("MainWindow", "L"))             # <<<<<<<<<<<<<<
@@ -5401,7 +5401,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":137
+  /* "Form.pyx":137
  *         self.label_4.setText(_translate("MainWindow", ""))
  *         self.radioButton.setText(_translate("MainWindow", "L"))
  *         self.radioButton_2.setText(_translate("MainWindow", "R"))             # <<<<<<<<<<<<<<
@@ -5431,7 +5431,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":126
+  /* "Form.pyx":126
  *         self.max_spectrum = self.plotitem2.plot(pen=pg.mkPen(color="r"))
  * 
  *     def retranslateUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -5447,7 +5447,7 @@ static PyObject *__pyx_pf_4From_13Ui_MainWindow_2retranslateUi(CYTHON_UNUSED PyO
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("From.Ui_MainWindow.retranslateUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("Form.Ui_MainWindow.retranslateUi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v__translate);
@@ -5463,17 +5463,17 @@ static PyMethodDef __pyx_methods[] = {
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_From(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_Form(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_From},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_Form},
   {0, NULL}
 };
 #endif
 
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
-    "From",
+    "Form",
     0, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
@@ -5503,8 +5503,8 @@ static struct PyModuleDef __pyx_moduledef = {
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_FFT, __pyx_k_FFT, sizeof(__pyx_k_FFT), 0, 0, 1, 1},
-  {&__pyx_n_s_From, __pyx_k_From, sizeof(__pyx_k_From), 0, 0, 1, 1},
-  {&__pyx_kp_s_From_pyx, __pyx_k_From_pyx, sizeof(__pyx_k_From_pyx), 0, 0, 1, 0},
+  {&__pyx_n_s_Form, __pyx_k_Form, sizeof(__pyx_k_Form), 0, 0, 1, 1},
+  {&__pyx_kp_s_Form_pyx, __pyx_k_Form_pyx, sizeof(__pyx_k_Form_pyx), 0, 0, 1, 0},
   {&__pyx_kp_s_Hz, __pyx_k_Hz, sizeof(__pyx_k_Hz), 0, 0, 1, 0},
   {&__pyx_kp_s_L, __pyx_k_L, sizeof(__pyx_k_L), 0, 0, 1, 0},
   {&__pyx_n_s_MainWindow, __pyx_k_MainWindow, sizeof(__pyx_k_MainWindow), 0, 0, 1, 1},
@@ -5638,7 +5638,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "From.pyx":10
+  /* "Form.pyx":10
  *     def setupUi(self, MainWindow):
  *         MainWindow.setObjectName("MainWindow")
  *         MainWindow.resize(1146, 673)             # <<<<<<<<<<<<<<
@@ -5649,7 +5649,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "From.pyx":15
+  /* "Form.pyx":15
  *         self.centralwidget.setObjectName("centralwidget")
  *         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton.setGeometry(QtCore.QRect(20, 50, 171, 51))             # <<<<<<<<<<<<<<
@@ -5660,7 +5660,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "From.pyx":18
+  /* "Form.pyx":18
  *         self.pushButton.setObjectName("pushButton")
  *         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_2.setGeometry(QtCore.QRect(20, 110, 171, 51))             # <<<<<<<<<<<<<<
@@ -5671,7 +5671,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "From.pyx":21
+  /* "Form.pyx":21
  *         self.pushButton_2.setObjectName("pushButton_2")
  *         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
  *         self.pushButton_3.setGeometry(QtCore.QRect(20, 170, 171, 51))             # <<<<<<<<<<<<<<
@@ -5682,7 +5682,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "From.pyx":24
+  /* "Form.pyx":24
  *         self.pushButton_3.setObjectName("pushButton_3")
  *         self.lcdNumber = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber.setGeometry(QtCore.QRect(20, 390, 161, 81))             # <<<<<<<<<<<<<<
@@ -5693,7 +5693,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "From.pyx":31
+  /* "Form.pyx":31
  *         self.lcdNumber.setObjectName("lcdNumber")
  *         self.lcdNumber_2 = QtWidgets.QLCDNumber(self.centralwidget)
  *         self.lcdNumber_2.setGeometry(QtCore.QRect(20, 530, 161, 81))             # <<<<<<<<<<<<<<
@@ -5704,7 +5704,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "From.pyx":38
+  /* "Form.pyx":38
  *         self.lcdNumber_2.setObjectName("lcdNumber_2")
  *         self.label = QtWidgets.QLabel(self.centralwidget)
  *         self.label.setGeometry(QtCore.QRect(20, 505, 91, 21))             # <<<<<<<<<<<<<<
@@ -5715,7 +5715,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "From.pyx":47
+  /* "Form.pyx":47
  *         self.label.setObjectName("label")
  *         self.label_2 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_2.setGeometry(QtCore.QRect(20, 360, 121, 21))             # <<<<<<<<<<<<<<
@@ -5726,7 +5726,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "From.pyx":56
+  /* "Form.pyx":56
  *         self.label_2.setObjectName("label_2")
  *         self.label_3 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_3.setGeometry(QtCore.QRect(220, 230, 71, 31))             # <<<<<<<<<<<<<<
@@ -5737,7 +5737,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "From.pyx":59
+  /* "Form.pyx":59
  *         self.label_3.setObjectName("label_3")
  *         self.label_4 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_4.setGeometry(QtCore.QRect(220, 20, 60, 16))             # <<<<<<<<<<<<<<
@@ -5748,7 +5748,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "From.pyx":62
+  /* "Form.pyx":62
  *         self.label_4.setObjectName("label_4")
  *         self.wave = PlotWidget(self.centralwidget)
  *         self.wave.setGeometry(QtCore.QRect(220, 40, 901, 191))             # <<<<<<<<<<<<<<
@@ -5759,7 +5759,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "From.pyx":65
+  /* "Form.pyx":65
  *         self.wave.setObjectName("wave")
  *         self.spectrum = PlotWidget(self.centralwidget)
  *         self.spectrum.setGeometry(QtCore.QRect(220, 260, 901, 351))             # <<<<<<<<<<<<<<
@@ -5770,7 +5770,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "From.pyx":68
+  /* "Form.pyx":68
  *         self.spectrum.setObjectName("spectrum")
  *         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
  *         self.progressBar.setGeometry(QtCore.QRect(20, 330, 161, 23))             # <<<<<<<<<<<<<<
@@ -5781,7 +5781,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "From.pyx":69
+  /* "Form.pyx":69
  *         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
  *         self.progressBar.setGeometry(QtCore.QRect(20, 330, 161, 23))
  *         self.progressBar.setProperty("value", 0)             # <<<<<<<<<<<<<<
@@ -5792,7 +5792,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "From.pyx":72
+  /* "Form.pyx":72
  *         self.progressBar.setObjectName("progressBar")
  *         self.label_5 = QtWidgets.QLabel(self.centralwidget)
  *         self.label_5.setGeometry(QtCore.QRect(20, 305, 161, 21))             # <<<<<<<<<<<<<<
@@ -5803,7 +5803,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "From.pyx":79
+  /* "Form.pyx":79
  *         self.label_5.setObjectName("label_5")
  *         self.radioButton = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton.setGeometry(QtCore.QRect(30, 240, 100, 20))             # <<<<<<<<<<<<<<
@@ -5814,7 +5814,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "From.pyx":83
+  /* "Form.pyx":83
  *         self.radioButton.setObjectName("radioButton")
  *         self.radioButton_2 = QtWidgets.QRadioButton(self.centralwidget)
  *         self.radioButton_2.setGeometry(QtCore.QRect(110, 240, 100, 20))             # <<<<<<<<<<<<<<
@@ -5825,7 +5825,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "From.pyx":88
+  /* "Form.pyx":88
  *         MainWindow.setCentralWidget(self.centralwidget)
  *         self.menubar = QtWidgets.QMenuBar(MainWindow)
  *         self.menubar.setGeometry(QtCore.QRect(0, 0, 1146, 22))             # <<<<<<<<<<<<<<
@@ -5836,7 +5836,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "From.pyx":109
+  /* "Form.pyx":109
  *         self.plotitem1 = self.plotwid1.getPlotItem()
  *         self.plotitem1.setMouseEnabled(x=False, y=False)
  *         self.plotitem1.setYRange(-1, 1)             # <<<<<<<<<<<<<<
@@ -5847,7 +5847,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
 
-  /* "From.pyx":118
+  /* "Form.pyx":118
  *         self.plotitem2 = self.plotwid2.getPlotItem()
  *         self.plotitem2.setMouseEnabled(x=False, y=True)
  *         self.plotitem2.setYRange(35, 250)             # <<<<<<<<<<<<<<
@@ -5858,7 +5858,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "From.pyx":128
+  /* "Form.pyx":128
  *     def retranslateUi(self, MainWindow):
  *         _translate = QtCore.QCoreApplication.translate
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))             # <<<<<<<<<<<<<<
@@ -5869,7 +5869,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "From.pyx":129
+  /* "Form.pyx":129
  *         _translate = QtCore.QCoreApplication.translate
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
  *         self.pushButton.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5880,7 +5880,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
 
-  /* "From.pyx":130
+  /* "Form.pyx":130
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
  *         self.pushButton.setText(_translate("MainWindow", ""))
  *         self.pushButton_2.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5891,7 +5891,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
 
-  /* "From.pyx":131
+  /* "Form.pyx":131
  *         self.pushButton.setText(_translate("MainWindow", ""))
  *         self.pushButton_2.setText(_translate("MainWindow", ""))
  *         self.pushButton_3.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5902,7 +5902,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
 
-  /* "From.pyx":132
+  /* "Form.pyx":132
  *         self.pushButton_2.setText(_translate("MainWindow", ""))
  *         self.pushButton_3.setText(_translate("MainWindow", ""))
  *         self.label.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5913,7 +5913,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
 
-  /* "From.pyx":133
+  /* "Form.pyx":133
  *         self.pushButton_3.setText(_translate("MainWindow", ""))
  *         self.label.setText(_translate("MainWindow", ""))
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))             # <<<<<<<<<<<<<<
@@ -5924,7 +5924,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
 
-  /* "From.pyx":134
+  /* "Form.pyx":134
  *         self.label.setText(_translate("MainWindow", ""))
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))
  *         self.label_3.setText(_translate("MainWindow", "FFT"))             # <<<<<<<<<<<<<<
@@ -5935,7 +5935,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
 
-  /* "From.pyx":135
+  /* "Form.pyx":135
  *         self.label_2.setText(_translate("MainWindow", "[Hz]"))
  *         self.label_3.setText(_translate("MainWindow", "FFT"))
  *         self.label_4.setText(_translate("MainWindow", ""))             # <<<<<<<<<<<<<<
@@ -5946,7 +5946,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
 
-  /* "From.pyx":136
+  /* "Form.pyx":136
  *         self.label_3.setText(_translate("MainWindow", "FFT"))
  *         self.label_4.setText(_translate("MainWindow", ""))
  *         self.radioButton.setText(_translate("MainWindow", "L"))             # <<<<<<<<<<<<<<
@@ -5956,7 +5956,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
 
-  /* "From.pyx":137
+  /* "Form.pyx":137
  *         self.label_4.setText(_translate("MainWindow", ""))
  *         self.radioButton.setText(_translate("MainWindow", "L"))
  *         self.radioButton_2.setText(_translate("MainWindow", "R"))             # <<<<<<<<<<<<<<
@@ -5965,7 +5965,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
 
-  /* "From.pyx":6
+  /* "Form.pyx":6
  * 
  * 
  * class Ui_MainWindow(object):             # <<<<<<<<<<<<<<
@@ -5976,7 +5976,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__37);
   __Pyx_GIVEREF(__pyx_tuple__37);
 
-  /* "From.pyx":8
+  /* "Form.pyx":8
  * class Ui_MainWindow(object):
  * 
  *     def setupUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -5986,9 +5986,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_MainWindow, __pyx_n_s_font); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_From_pyx, __pyx_n_s_setupUi, 8, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Form_pyx, __pyx_n_s_setupUi, 8, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 8, __pyx_L1_error)
 
-  /* "From.pyx":126
+  /* "Form.pyx":126
  *         self.max_spectrum = self.plotitem2.plot(pen=pg.mkPen(color="r"))
  * 
  *     def retranslateUi(self, MainWindow):             # <<<<<<<<<<<<<<
@@ -5998,7 +5998,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_MainWindow, __pyx_n_s_translate_2); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_From_pyx, __pyx_n_s_retranslateUi, 126, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Form_pyx, __pyx_n_s_retranslateUi, 126, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -6139,11 +6139,11 @@ static int __Pyx_modinit_function_import_code(void) {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initFrom(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC initFrom(void)
+__Pyx_PyMODINIT_FUNC initForm(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC initForm(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_From(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC PyInit_From(void)
+__Pyx_PyMODINIT_FUNC PyInit_Form(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC PyInit_Form(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -6210,7 +6210,7 @@ bad:
 }
 
 
-static CYTHON_SMALL_CODE int __pyx_pymod_exec_From(PyObject *__pyx_pyinit_module)
+static CYTHON_SMALL_CODE int __pyx_pymod_exec_Form(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -6224,7 +6224,7 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_From(PyObject *__pyx_pyinit_module
   #if CYTHON_PEP489_MULTI_PHASE_INIT
   if (__pyx_m) {
     if (__pyx_m == __pyx_pyinit_module) return 0;
-    PyErr_SetString(PyExc_RuntimeError, "Module 'From' has already been imported. Re-initialisation is not supported.");
+    PyErr_SetString(PyExc_RuntimeError, "Module 'Form' has already been imported. Re-initialisation is not supported.");
     return -1;
   }
   #elif PY_MAJOR_VERSION >= 3
@@ -6239,7 +6239,7 @@ if (!__Pyx_RefNanny) {
       Py_FatalError("failed to import 'refnanny' module");
 }
 #endif
-  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_From(void)", 0);
+  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_Form(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
@@ -6276,7 +6276,7 @@ if (!__Pyx_RefNanny) {
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("From", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("Form", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -6294,14 +6294,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_From) {
+  if (__pyx_module_is_main_Form) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "From")) {
-      if (unlikely(PyDict_SetItemString(modules, "From", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "Form")) {
+      if (unlikely(PyDict_SetItemString(modules, "Form", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -6322,7 +6322,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "From.pyx":1
+  /* "Form.pyx":1
  * from PyQt5 import QtCore, QtGui, QtWidgets             # <<<<<<<<<<<<<<
  * from pyqtgraph import PlotWidget
  * import pyqtgraph as pg
@@ -6355,7 +6355,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "From.pyx":2
+  /* "Form.pyx":2
  * from PyQt5 import QtCore, QtGui, QtWidgets
  * from pyqtgraph import PlotWidget             # <<<<<<<<<<<<<<
  * import pyqtgraph as pg
@@ -6375,7 +6375,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":3
+  /* "Form.pyx":3
  * from PyQt5 import QtCore, QtGui, QtWidgets
  * from pyqtgraph import PlotWidget
  * import pyqtgraph as pg             # <<<<<<<<<<<<<<
@@ -6387,7 +6387,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pg, __pyx_t_1) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":6
+  /* "Form.pyx":6
  * 
  * 
  * class Ui_MainWindow(object):             # <<<<<<<<<<<<<<
@@ -6396,34 +6396,34 @@ if (!__Pyx_RefNanny) {
  */
   __pyx_t_1 = __Pyx_CalculateMetaclass(NULL, __pyx_tuple__37); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_Py3MetaclassPrepare(__pyx_t_1, __pyx_tuple__37, __pyx_n_s_Ui_MainWindow, __pyx_n_s_Ui_MainWindow, (PyObject *) NULL, __pyx_n_s_From, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare(__pyx_t_1, __pyx_tuple__37, __pyx_n_s_Ui_MainWindow, __pyx_n_s_Ui_MainWindow, (PyObject *) NULL, __pyx_n_s_Form, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "From.pyx":8
+  /* "Form.pyx":8
  * class Ui_MainWindow(object):
  * 
  *     def setupUi(self, MainWindow):             # <<<<<<<<<<<<<<
  *         MainWindow.setObjectName("MainWindow")
  *         MainWindow.resize(1146, 673)
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4From_13Ui_MainWindow_1setupUi, 0, __pyx_n_s_Ui_MainWindow_setupUi, NULL, __pyx_n_s_From, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4Form_13Ui_MainWindow_1setupUi, 0, __pyx_n_s_Ui_MainWindow_setupUi, NULL, __pyx_n_s_Form, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_setupUi, __pyx_t_3) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "From.pyx":126
+  /* "Form.pyx":126
  *         self.max_spectrum = self.plotitem2.plot(pen=pg.mkPen(color="r"))
  * 
  *     def retranslateUi(self, MainWindow):             # <<<<<<<<<<<<<<
  *         _translate = QtCore.QCoreApplication.translate
  *         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
  */
-  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4From_13Ui_MainWindow_3retranslateUi, 0, __pyx_n_s_Ui_MainWindow_retranslateUi, NULL, __pyx_n_s_From, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_CyFunction_New(&__pyx_mdef_4Form_13Ui_MainWindow_3retranslateUi, 0, __pyx_n_s_Ui_MainWindow_retranslateUi, NULL, __pyx_n_s_Form, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_retranslateUi, __pyx_t_3) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "From.pyx":6
+  /* "Form.pyx":6
  * 
  * 
  * class Ui_MainWindow(object):             # <<<<<<<<<<<<<<
@@ -6437,7 +6437,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "From.pyx":1
+  /* "Form.pyx":1
  * from PyQt5 import QtCore, QtGui, QtWidgets             # <<<<<<<<<<<<<<
  * from pyqtgraph import PlotWidget
  * import pyqtgraph as pg
@@ -6456,11 +6456,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init From", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init Form", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init From");
+    PyErr_SetString(PyExc_ImportError, "init Form");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

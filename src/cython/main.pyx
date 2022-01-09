@@ -3,9 +3,9 @@ import numpy as np
 import struct
 import os
 import time
-from sub.sinwave import SinWave
+from sinwave import SinWave
 from PyQt5 import QtWidgets, QtGui, QtCore
-from sub.Form import Ui_MainWindow
+from Form import Ui_MainWindow
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -164,10 +164,16 @@ class MainWindow(QtWidgets.QMainWindow):
         # 画面クローズ時の処理
         self.slot3()
 
-
+"""
 if __name__ == '__main__':
 
     app = QtWidgets.QApplication(sys.argv)
     w = MainWindow()
     w.show()
     sys.exit(app.exec_())
+"""
+
+app = QtWidgets.QApplication(sys.argv)
+w = MainWindow()
+w.show()
+sys.exit(app.exec_())
