@@ -1,2 +1,1 @@
-def hello(name):
-	return "hello, {}".format(name)
+print("I'm test_1.pyx")

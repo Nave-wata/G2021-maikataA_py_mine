@@ -1,2 +1,3 @@
-def hello(str name):
-	return "hello, {}".format(name)
+import test_3
+
+print("I'm cython1.pyx")

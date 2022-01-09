@@ -1,2 +1,3 @@
-def hello(str name):
-    print("Hello {} I'm test_3.pyx!". format(name))
+import test_1
+
+print("I'm test_3.pyx")
