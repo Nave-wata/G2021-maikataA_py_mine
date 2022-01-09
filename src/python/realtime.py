@@ -15,9 +15,9 @@ class MainWindow(QtWidgets.QMainWindow):
 
     OUTPUT_INDEX: int = 5
     INPUT_INDEX: int = 1
-    CALIBRATE_PATH: str = os.path.join(base_path, "../calibrate/earphone.npy")  # Calibrate earphone data
-    LEFT_PATH: str = os.path.join(base_path, "../earphone/L.npy")  # left poor earphone
-    RIGHT_PATH: str = os.path.join(base_path, "../earphone/R.npy")  # right poor earphone
+    CALIBRATE_PATH: str = os.path.join(base_path, "../../calibrate/earphone.npy")  # Calibrate earphone data
+    LEFT_PATH: str = os.path.join(base_path, "../../earphone/L.npy")  # left poor earphone
+    RIGHT_PATH: str = os.path.join(base_path, "../../earphone/R.npy")  # right poor earphone
     OUTPUT_FIX: int = 1  # change here according to sound level
 
     RATE: int = 44100  # サンプリング周波数

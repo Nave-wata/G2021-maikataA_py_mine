@@ -98,16 +98,16 @@ class MainWindow(QtWidgets.QMainWindow):
                     self.sw.stop(self.freqlist[self.count])
                     if self.flag == 1:
                         self.flag = 0
-                        np.save(self.saveFile("calibrate", "../calibrate/earphone.npy"),
+                        np.save(self.saveFile("calibrate", "../../calibrate/earphone.npy"),
                                 self.max_amplitudeSpectrum)
                     else:
                         if self.LR_select == self.sw.L:
                             self.flag = 0
-                            np.save(self.saveFile("earphone", "../earphone/L.npy"),
+                            np.save(self.saveFile("earphone", "../../earphone/L.npy"),
                                     self.max_amplitudeSpectrum)
                         else:
                             self.flag = 0
-                            np.save(self.saveFile("earphone", "../earphone/R.npy"),
+                            np.save(self.saveFile("earphone", "../../earphone/R.npy"),
                                     self.max_amplitudeSpectrum)
                     # ボタン操作を再開
                     self.ui.pushButton.clicked.connect(self.slot1)
