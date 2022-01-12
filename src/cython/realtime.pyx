@@ -283,4 +283,4 @@ if __name__ == '__main__':
 app = QtWidgets.QApplication([])  # アプリケーションを作成
 w = MainWindow()
 w.show()
-#app.exec()
+app.exec()

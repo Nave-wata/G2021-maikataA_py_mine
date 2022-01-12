@@ -1404,7 +1404,6 @@ static const char __pyx_k_end[] = "end";
 static const char __pyx_k_fft[] = "fft";
 static const char __pyx_k_max[] = "max";
 static const char __pyx_k_sys[] = "sys";
-static const char __pyx_k_Form[] = "Form";
 static const char __pyx_k_RATE[] = "RATE";
 static const char __pyx_k_argv[] = "argv";
 static const char __pyx_k_data[] = "data";
@@ -1466,7 +1465,6 @@ static const char __pyx_k_prepare[] = "__prepare__";
 static const char __pyx_k_setData[] = "setData";
 static const char __pyx_k_setText[] = "setText";
 static const char __pyx_k_setupUi[] = "setupUi";
-static const char __pyx_k_sinwave[] = "sinwave";
 static const char __pyx_k_timeout[] = "timeout";
 static const char __pyx_k_earphone[] = "earphone";
 static const char __pyx_k_fileName[] = "fileName";
@@ -1476,6 +1474,7 @@ static const char __pyx_k_main_pyx[] = "main.pyx";
 static const char __pyx_k_makedirs[] = "makedirs";
 static const char __pyx_k_qualname[] = "__qualname__";
 static const char __pyx_k_saveFile[] = "saveFile";
+static const char __pyx_k_sub_Form[] = "sub.Form";
 static const char __pyx_k_LR_select[] = "LR_select";
 static const char __pyx_k_Numpy_npy[] = "Numpy\343\203\225\343\202\241\343\202\244\343\203\253(*.npy)";
 static const char __pyx_k_QtWidgets[] = "QtWidgets";
@@ -1499,6 +1498,7 @@ static const char __pyx_k_information[] = "information";
 static const char __pyx_k_lcdNumber_2[] = "lcdNumber_2";
 static const char __pyx_k_progressBar[] = "progressBar";
 static const char __pyx_k_setProperty[] = "setProperty";
+static const char __pyx_k_sub_sinwave[] = "sub.sinwave";
 static const char __pyx_k_wave_figure[] = "wave_figure";
 static const char __pyx_k_QApplication[] = "QApplication";
 static const char __pyx_k_pushButton_2[] = "pushButton_2";
@@ -1525,7 +1525,6 @@ static const char __pyx_k_max_amplitudeSpectrum[] = "max_amplitudeSpectrum";
 static const char __pyx_k_calibrate_earphone_npy[] = "../../calibrate/earphone.npy";
 static PyObject *__pyx_kp_s_;
 static PyObject *__pyx_n_s_CHUNK;
-static PyObject *__pyx_n_s_Form;
 static PyObject *__pyx_kp_u_Hz;
 static PyObject *__pyx_n_s_L;
 static PyObject *__pyx_n_s_LR_select;
@@ -1643,7 +1642,6 @@ static PyObject *__pyx_n_s_setProperty;
 static PyObject *__pyx_n_s_setText;
 static PyObject *__pyx_n_s_setupUi;
 static PyObject *__pyx_n_s_show;
-static PyObject *__pyx_n_s_sinwave;
 static PyObject *__pyx_n_s_slot1;
 static PyObject *__pyx_n_s_slot2;
 static PyObject *__pyx_n_s_slot3;
@@ -1654,6 +1652,8 @@ static PyObject *__pyx_n_s_start_init;
 static PyObject *__pyx_n_s_starttime;
 static PyObject *__pyx_n_s_stop;
 static PyObject *__pyx_n_s_struct;
+static PyObject *__pyx_n_s_sub_Form;
+static PyObject *__pyx_n_s_sub_sinwave;
 static PyObject *__pyx_n_s_super;
 static PyObject *__pyx_n_s_sw;
 static PyObject *__pyx_n_s_sys;
@@ -5312,7 +5312,6 @@ static struct PyModuleDef __pyx_moduledef = {
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_, __pyx_k_, sizeof(__pyx_k_), 0, 0, 1, 0},
   {&__pyx_n_s_CHUNK, __pyx_k_CHUNK, sizeof(__pyx_k_CHUNK), 0, 0, 1, 1},
-  {&__pyx_n_s_Form, __pyx_k_Form, sizeof(__pyx_k_Form), 0, 0, 1, 1},
   {&__pyx_kp_u_Hz, __pyx_k_Hz, sizeof(__pyx_k_Hz), 0, 1, 0, 0},
   {&__pyx_n_s_L, __pyx_k_L, sizeof(__pyx_k_L), 0, 0, 1, 1},
   {&__pyx_n_s_LR_select, __pyx_k_LR_select, sizeof(__pyx_k_LR_select), 0, 0, 1, 1},
@@ -5430,7 +5429,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_setText, __pyx_k_setText, sizeof(__pyx_k_setText), 0, 0, 1, 1},
   {&__pyx_n_s_setupUi, __pyx_k_setupUi, sizeof(__pyx_k_setupUi), 0, 0, 1, 1},
   {&__pyx_n_s_show, __pyx_k_show, sizeof(__pyx_k_show), 0, 0, 1, 1},
-  {&__pyx_n_s_sinwave, __pyx_k_sinwave, sizeof(__pyx_k_sinwave), 0, 0, 1, 1},
   {&__pyx_n_s_slot1, __pyx_k_slot1, sizeof(__pyx_k_slot1), 0, 0, 1, 1},
   {&__pyx_n_s_slot2, __pyx_k_slot2, sizeof(__pyx_k_slot2), 0, 0, 1, 1},
   {&__pyx_n_s_slot3, __pyx_k_slot3, sizeof(__pyx_k_slot3), 0, 0, 1, 1},
@@ -5441,6 +5439,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_starttime, __pyx_k_starttime, sizeof(__pyx_k_starttime), 0, 0, 1, 1},
   {&__pyx_n_s_stop, __pyx_k_stop, sizeof(__pyx_k_stop), 0, 0, 1, 1},
   {&__pyx_n_s_struct, __pyx_k_struct, sizeof(__pyx_k_struct), 0, 0, 1, 1},
+  {&__pyx_n_s_sub_Form, __pyx_k_sub_Form, sizeof(__pyx_k_sub_Form), 0, 0, 1, 1},
+  {&__pyx_n_s_sub_sinwave, __pyx_k_sub_sinwave, sizeof(__pyx_k_sub_sinwave), 0, 0, 1, 1},
   {&__pyx_n_s_super, __pyx_k_super, sizeof(__pyx_k_super), 0, 0, 1, 1},
   {&__pyx_n_s_sw, __pyx_k_sw, sizeof(__pyx_k_sw), 0, 0, 1, 1},
   {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
@@ -5968,7 +5968,7 @@ if (!__Pyx_RefNanny) {
  * import struct
  * import os             # <<<<<<<<<<<<<<
  * import time
- * from sinwave import SinWave
+ * from sub.sinwave import SinWave
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_os, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -5979,7 +5979,7 @@ if (!__Pyx_RefNanny) {
  * import struct
  * import os
  * import time             # <<<<<<<<<<<<<<
- * from sinwave import SinWave
+ * from sub.sinwave import SinWave
  * from PyQt5 import QtWidgets, QtGui, QtCore
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_time, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 5, __pyx_L1_error)
@@ -5990,16 +5990,16 @@ if (!__Pyx_RefNanny) {
   /* "main.pyx":6
  * import os
  * import time
- * from sinwave import SinWave             # <<<<<<<<<<<<<<
+ * from sub.sinwave import SinWave             # <<<<<<<<<<<<<<
  * from PyQt5 import QtWidgets, QtGui, QtCore
- * from Form import Ui_MainWindow
+ * from sub.Form import Ui_MainWindow
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_SinWave);
   __Pyx_GIVEREF(__pyx_n_s_SinWave);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_SinWave);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_sinwave, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_sub_sinwave, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_SinWave); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
@@ -6010,9 +6010,9 @@ if (!__Pyx_RefNanny) {
 
   /* "main.pyx":7
  * import time
- * from sinwave import SinWave
+ * from sub.sinwave import SinWave
  * from PyQt5 import QtWidgets, QtGui, QtCore             # <<<<<<<<<<<<<<
- * from Form import Ui_MainWindow
+ * from sub.Form import Ui_MainWindow
  * 
  */
   __pyx_t_2 = PyList_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
@@ -6044,9 +6044,9 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "main.pyx":8
- * from sinwave import SinWave
+ * from sub.sinwave import SinWave
  * from PyQt5 import QtWidgets, QtGui, QtCore
- * from Form import Ui_MainWindow             # <<<<<<<<<<<<<<
+ * from sub.Form import Ui_MainWindow             # <<<<<<<<<<<<<<
  * 
  * 
  */
@@ -6055,7 +6055,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_Ui_MainWindow);
   __Pyx_GIVEREF(__pyx_n_s_Ui_MainWindow);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_Ui_MainWindow);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_Form, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_sub_Form, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Ui_MainWindow); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)

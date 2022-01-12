@@ -3,9 +3,9 @@ import numpy as np
 import struct
 import os
 import time
-from sinwave import SinWave
+from sub.sinwave import SinWave
 from PyQt5 import QtWidgets, QtGui, QtCore
-from Form import Ui_MainWindow
+from sub.Form import Ui_MainWindow
 
 
 class MainWindow(QtWidgets.QMainWindow):
