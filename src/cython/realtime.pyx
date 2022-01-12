@@ -273,9 +273,14 @@ class MainWindow(QtWidgets.QMainWindow):
             self.r_mag = np.append(np.append(self.r_mag, [0]), self.r_mag[:0:-1])
             self.slot2()
 
-
+"""
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])  # アプリケーションを作成
     w = MainWindow()
     w.show()
     app.exec()
+"""
+app = QtWidgets.QApplication([])  # アプリケーションを作成
+w = MainWindow()
+w.show()
+app.exec()
