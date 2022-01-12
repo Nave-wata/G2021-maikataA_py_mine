@@ -6,8 +6,8 @@ import os
 import sys
 from typing import List, Tuple, Dict
 from PyQt5 import QtWidgets, QtCore
-from sub.realtime_form import Ui_MainWindow # type: ignore
-from sub.realtime_AI import Noise_detection_AI # type: ignore
+from realtime_form import Ui_MainWindow # type: ignore
+from realtime_AI import Noise_detection_AI # type: ignore
 
 
 class MainWindow(QtWidgets.QMainWindow):
