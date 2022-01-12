@@ -12,7 +12,7 @@ class Noise_detection_AI(object):
         self.two_sec = 88200 # 2sec
         # 学習結果読み込み
         self.base_path = os.path.dirname(__file__)
-        self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
+        self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
         with open(self.open_path, mode='rb') as f:
             self.model = pickle.load(f)
 
