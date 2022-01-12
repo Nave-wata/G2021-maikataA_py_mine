@@ -3,9 +3,9 @@ import numpy as np
 import struct
 import os
 import time
-from sub.sinwave import SinWave
 from PyQt5 import QtWidgets, QtGui, QtCore
-from sub.Form import Ui_MainWindow
+from module.sinwave import SinWave
+from module.Form import Ui_MainWindow
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -15,6 +15,7 @@ class MainWindow(QtWidgets.QMainWindow):
     N = 1024
     UPDATE_SECOND = 10
     SOUND_TIME = 0  # 単音を再生する時間[s]
+    base_path = os.path.dirname(__file__)
 
     def __init__(self, parent=None):
         # valuables
@@ -98,16 +99,19 @@ class MainWindow(QtWidgets.QMainWindow):
                     self.sw.stop(self.freqlist[self.count])
                     if self.flag == 1:
                         self.flag = 0
-                        np.save(self.saveFile("calibrate", "../../calibrate/earphone.npy"),
+                        save_path = os.path.join(self.base_path, '../../../calibrate')
+                        np.save(self.saveFile(save_path, "calibrate/earphone.npy"),
                                 self.max_amplitudeSpectrum)
                     else:
                         if self.LR_select == self.sw.L:
                             self.flag = 0
-                            np.save(self.saveFile("earphone", "../../earphone/L.npy"),
+                            save_path = os.path.join(self.base_path, '../../../earphone')
+                            np.save(self.saveFile(save_path, "earphone/L.npy"),
                                     self.max_amplitudeSpectrum)
                         else:
                             self.flag = 0
-                            np.save(self.saveFile("earphone", "../../earphone/R.npy"),
+                            save_path = os.path.join(self.base_path, '../../../earphone')
+                            np.save(self.saveFile(save_path, "earphone/R.npy"),
                                     self.max_amplitudeSpectrum)
                     # ボタン操作を再開
                     self.ui.pushButton.clicked.connect(self.slot1)
@@ -121,7 +125,7 @@ class MainWindow(QtWidgets.QMainWindow):
         if not os.path.exists(foldername):
             os.makedirs(foldername)
         (fileName, selectedFilter) = QtWidgets.QFileDialog.getSaveFileName(self, 'ファイルを保存',
-                                                                           os.path.dirname(os.path.abspath(__file__)) + f'/{initfile}', "Numpyファイル(*.npy)")
+                                                                           foldername + f'/{initfile}', "Numpyファイル(*.npy)")
         return fileName
 
     def start_init(self):

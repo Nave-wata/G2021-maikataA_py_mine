@@ -1380,7 +1380,7 @@ static const char __pyx_k_Noise_detection_AI[] = "Noise_detection_AI";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_Noise_detection_AI___init[] = "Noise_detection_AI.__init__";
 static const char __pyx_k_Noise_detection_AI_jdg_start[] = "Noise_detection_AI.jdg_start";
-static const char __pyx_k_save_AI_model_predict_pickle[] = "../../save_AI/model_predict.pickle";
+static const char __pyx_k_save_AI_model_predict_pickle[] = "../../../save_AI/model_predict.pickle";
 static PyObject *__pyx_n_s_Noise_detection_AI;
 static PyObject *__pyx_n_s_Noise_detection_AI___init;
 static PyObject *__pyx_n_s_Noise_detection_AI_jdg_start;
@@ -1523,7 +1523,7 @@ static PyObject *__pyx_pf_11realtime_AI_18Noise_detection_AI___init__(CYTHON_UNU
  *         self.two_sec = 88200 # 2sec
  *         #
  *         self.base_path = os.path.dirname(__file__)             # <<<<<<<<<<<<<<
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
  *         with open(self.open_path, mode='rb') as f:
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
@@ -1558,7 +1558,7 @@ static PyObject *__pyx_pf_11realtime_AI_18Noise_detection_AI___init__(CYTHON_UNU
   /* "realtime_AI.pyx":15
  *         #
  *         self.base_path = os.path.dirname(__file__)
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')             # <<<<<<<<<<<<<<
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')             # <<<<<<<<<<<<<<
  *         with open(self.open_path, mode='rb') as f:
  *             self.model = pickle.load(f)
  */
@@ -1624,7 +1624,7 @@ static PyObject *__pyx_pf_11realtime_AI_18Noise_detection_AI___init__(CYTHON_UNU
 
   /* "realtime_AI.pyx":16
  *         self.base_path = os.path.dirname(__file__)
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
  *         with open(self.open_path, mode='rb') as f:             # <<<<<<<<<<<<<<
  *             self.model = pickle.load(f)
  * 
@@ -1679,7 +1679,7 @@ static PyObject *__pyx_pf_11realtime_AI_18Noise_detection_AI___init__(CYTHON_UNU
           __pyx_t_2 = 0;
 
           /* "realtime_AI.pyx":17
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
  *         with open(self.open_path, mode='rb') as f:
  *             self.model = pickle.load(f)             # <<<<<<<<<<<<<<
  * 
@@ -1710,7 +1710,7 @@ static PyObject *__pyx_pf_11realtime_AI_18Noise_detection_AI___init__(CYTHON_UNU
 
           /* "realtime_AI.pyx":16
  *         self.base_path = os.path.dirname(__file__)
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
  *         with open(self.open_path, mode='rb') as f:             # <<<<<<<<<<<<<<
  *             self.model = pickle.load(f)
  * 
@@ -2828,7 +2828,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "realtime_AI.pyx":16
  *         self.base_path = os.path.dirname(__file__)
- *         self.open_path = os.path.join(self.base_path, '../../save_AI/model_predict.pickle')
+ *         self.open_path = os.path.join(self.base_path, '../../../save_AI/model_predict.pickle')
  *         with open(self.open_path, mode='rb') as f:             # <<<<<<<<<<<<<<
  *             self.model = pickle.load(f)
  * 
